@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  if array{ |i| i == 1}
+  if array.length == 1
     array.join(',')
-  if array{ |i| i > 2 }
+  elsif array{ |i| i > 2 }
     array.join(' and ')
 end
